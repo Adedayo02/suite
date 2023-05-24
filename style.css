@@ -149,6 +149,10 @@
     color: #49566D;
   }
   
+  .stac-tab{
+    display: none;
+  }
+
   .quote{
     width: 1100px;
     height: 500px;
@@ -212,6 +216,38 @@
 
  /* Tablets -> Downwards */
 @media screen and (max-width: 900px) {
+
+.stac{
+  display: none;
+}
+
+.stac-tab{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 200px;
+  font-size: 30px;
+}
+
+#img{
+  width: 250px;
+  height: 450px;
+  
+}
+
+.quote{
+    height: 689px;
+    width: 684px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    text-align: center;
+  }
+
+  #jeff{
+    width: 252px;
+    height: 402px;
+  }
+
 }
 
 /* Mobile */
@@ -273,9 +309,13 @@
 }
 
 .stac{
+  display: block;
   margin-top: 70px;
   width: 100%;
   text-align: center;
+}
+.stac-tab{
+  display: none;
 }
 
 .quote{
