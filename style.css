@@ -96,13 +96,16 @@
 
   .head{
     margin-top: 70px;
+    z-index: 3;
   }
 
   #text{
     font-size: xx-large;
     margin-bottom: 14px;
-    font-size: 40px;
+    font-size: 60px;
     color: #172339;
+    
+
   }
 
   h1 span{
@@ -121,25 +124,25 @@
   }
 
   #img{
-    width: 200px;
-    height: 350px;
-    margin-left: -350px;
-    
+    width: 250px;
+    height: 450px;
+    margin-left: -310px; 
   }
 
   #img-phone{
     display: none;
+    
   }
 
   .stac{
     display: flex;
     flex-direction: column;
+    font-size: 30px;
   }
 
   .stac-no{
     margin-bottom: 30px;
-
-  }
+     }
 
   #light{
     font-weight: lighter;
