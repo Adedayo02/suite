@@ -305,9 +305,9 @@ h1 span {
   }
 
   #text {
-    
-    margin-bottom: 14px;
-    font-size: 56px;
+    max-width: 343px;
+    margin-bottom: 30px;
+    font-size: 38px;
     line-height: 44px;
     color: #172339;
   }
